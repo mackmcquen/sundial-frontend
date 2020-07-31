@@ -1,0 +1,10 @@
+{
+    "notes": [
+        { "id": 1, "title": "Groceries", "content": "Green eggs and ham" },
+        { "id": 2, "title": "Car Shopping", "content": "Get a good one" },
+        { "id": 3, "title": "Paintball", "content": "Blast 'em" },
+        { "id": 4, "title": "Write a poem", "content": "Something unique and beautiful" },
+        { "id": 5, "title": "Email boss", "content": "Blah blah blah finances" },
+        { "id": 6, "title": "Go to sleep", "content": "DO IT!" }
+    ]
+}

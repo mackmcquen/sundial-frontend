@@ -1,0 +1,88 @@
+html {
+  background-color: rgb(238, 215, 187);
+}
+
+.App {
+  text-align: center;
+  font-weight: 222;
+}
+
+.App-logo {
+  height: 300px;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #180000;
+}
+
+.sundial-title {
+  font-size: 42px;
+  font-weight: 222;
+}
+
+.Note-card {
+  float: left;
+  outline: #3B0B0B solid thin;
+  margin: 2%;
+  padding: 2%;
+  background-color: rgb(242, 217, 179);
+  transition: 0.66s;
+}
+
+.Note-title {
+  font-weight: 222;
+}
+
+.Note-content {
+  font-size: 22px;
+}
+
+.minNote-card {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+}
+
+.maxNote-card {
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  float: left;
+}
+
+.Note-card:hover {
+  transform: scale(1.05);
+}
+
+.Card-button {
+	box-shadow: 0px 2px 4px 2px #1c1b18;
+	background:linear-gradient(to bottom, rgb(255, 247, 238) 5%, #bda882 100%);
+	background-color:rgb(255, 247, 238);
+	border:#180000;
+  display:inline-block;
+  outline: none;
+	cursor:pointer;
+  color:#180000;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:14px;
+  font-weight: 444;
+  margin: 2px;
+	padding:8px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.Card-button:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#bda882;
+}
+.Card-button:active {
+	position:relative;
+	top:1px;
+}
